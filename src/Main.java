@@ -6,7 +6,7 @@ public class Main {
         persons.add(new Person("Иван", "Иванов", 35));
         persons.add(new Person("Петр", "Петрович Иванов", 25));
         persons.add(new Person("Алексей", "Алексеев", 15)); // Добавлено для демонстрации
-        persons.add(new Person("Елена", "Еленова", 20)); // Добавлено для демонстрации
+        persons.add(new Person("Елена", "Еленова", 15)); // Добавлено для демонстрации
 
         persons.removeIf(person -> {
             if (person.getAge() < 18) {
@@ -21,5 +21,3 @@ public class Main {
         }
     }
 }
-
-
